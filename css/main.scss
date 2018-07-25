@@ -79,7 +79,7 @@ nav {
     &.change {
         background: #fff;
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        a {
+        .navRight a {
             text-shadow: none;
             color: #444;
             border-color: #444 !important;
@@ -492,6 +492,9 @@ footer {
     .banner {
         text-align: center;
         height: 100vh;
+        img {
+            width: 85%;
+        }
     }
     .hamburger {
         display: flex !important;
@@ -587,6 +590,9 @@ footer {
     }
     #galleryBody .gal:nth-child(n+7) {
         display: none;
+    }
+    .banner img {
+        width: 95%;
     }
 }
 @media only screen and (max-width: 480px) {

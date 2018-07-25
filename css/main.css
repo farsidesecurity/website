@@ -91,11 +91,11 @@ nav {
     background: #fff;
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
-    nav.change a {
+    nav.change .navRight a {
       text-shadow: none;
       color: #444;
       border-color: #444 !important; }
-      nav.change a:last-child:hover {
+      nav.change .navRight a:last-child:hover {
         color: #fff;
         background: #444; }
     nav.change img {
@@ -503,6 +503,8 @@ footer {
   .banner {
     text-align: center;
     height: 100vh; }
+    .banner img {
+      width: 85%; }
   .hamburger {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -587,7 +589,9 @@ footer {
   #galleryBody .gal {
     width: 50%; }
   #galleryBody .gal:nth-child(n+7) {
-    display: none; } }
+    display: none; }
+  .banner img {
+    width: 95%; } }
 
 @media only screen and (max-width: 480px) {
   #galleryBody .gal {
