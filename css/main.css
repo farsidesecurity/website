@@ -364,6 +364,24 @@ section {
     background: #444;
     color: #fff; }
 
+.repairs {
+  width: 150px;
+  display: inline-block;
+  margin: 50px auto 0;
+  text-align: center;
+  border: 2px solid #444;
+  color: #444;
+  text-decoration: none;
+  padding: 10px 0;
+  border-radius: 30px;
+  font-weight: 500;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease; }
+  .galMore:hover {
+    background: #444;
+    color: #fff; }
+
 #contact {
   background: url("../img/bannerLarge.jpeg") center fixed;
   background-size: cover; }
