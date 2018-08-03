@@ -18,6 +18,17 @@ $(function() {
 		e.preventDefault();
 	})
 
+    var headerHeight = $('nav').outerHeight();
+	$('.smooth-scroll-Delay').click(function(e) {
+		var linkHref = $(this).attr('href');
+		setTimeout(function() {
+            $('html, body').animate({
+    			scrollTop: $(linkHref).offset().top - headerHeight + 1
+    		}, 700);
+        }, 500)
+        e.preventDefault();
+	})
+
     $('.hamburger').click(function() {
         $('.navRight').slideToggle(200);
     })

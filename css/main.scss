@@ -65,6 +65,19 @@ $main: #0072bb;
 .galBanner {
     height: 200px;
 }
+.repairBanner {
+    height: 300px;
+    h1 {
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-family: 'Montserrat';
+        color: #fff;
+        text-shadow: 0 2px 3px #000, 0 2px 3px #000;
+        font-weight: 600;
+        margin: 0;
+    }
+}
 
 nav {
     position: fixed;
