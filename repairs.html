@@ -2,17 +2,20 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>FarSide Data & Security</title>
+        <title>Electronic Repairs - FarSide Data & Security</title>
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/code.js"></script>
+        <script src="js/tabs.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="fonts/stylesheet.css">
         <link rel="stylesheet" href="css/lightbox.css">
-        <script src="js/lightbox.js"></script>
-        <script src="js/code.js"></script>
     </head>
     <body>
 
@@ -35,55 +38,2012 @@
 
         <div class="banner f galBanner" id="home">
             <p></p>
-            <h1>ELECTRONICS REPAIRS</h1>
+            <h1>ELECTRONIC REPAIRS</h1>
         </div>
 
-
-<section id="repairs1">
+        <section>
             <div id="wrapper">
                 <header>
-                    <h1 class="header">Popular Repairs</h1>
+                    <h1 class="header">Select your Brand</h1>
                 </header>
-                <div id="body">
-                    <div class="servicesContainer f">
-                        <div class="service f">
-                            <div class="icon f">
-                                <img src="img/iphonex_spacegray.png">
-                            </div>
-                            <div class="text f">
-                                <h3 class="header">iPhone Screens</h3>
-                                <p>iPhone 6: $ <br> iPhone 6 Plus: $ <br> iPhone 6S: $ <br> iPhone 6S Plus: $ <br> iPhone 7: $ <br> iPhone 7 Plus: $ <br> iPhone 8: $ <br> iPhone 8 Plus: $ <br> iPhone X: $</p>
-                            </div>
+                <div id="repairsBody">
+                    <div id="repairPanels" class="f">
+                        <div class="repairPanel f appleBtn">
+                            <span class="fab fa-apple"></span>
                         </div>
-                        <div class="service f">
-                            <div class="icon f">
-                                <img src="img/Samsung Galaxy S9 Plus.png">
-                            </div>
-                            <div class="text f">
-                                <h3 class="header">Samsung Galaxy Screens</h3>
-                                <p>Galaxy S6: $ <br> Galaxy S6 Edge: $ <br> Galaxy S6 Edge Plus: $ <br> Galaxy S7: $ <br> Galaxy S7 Edge: $ <br> Galaxy S8: $ <br> Galaxy S8 Plus: $ <br> Galaxy S9: $ <br> Galaxy S9 Plus: $</p>
-                            </div>
+                        <div class="repairPanel f samsungBtn">
+                            <img src="img/samsungLogo.png" alt="SAMSUNG">
                         </div>
-                        <div class="service f">
-                            <div class="icon f">
-                                <img src="img/ipadpro10.5.png">
-                            </div>
-                            <div class="text f">
-                                <h3 class="header">iPad Screens</h3>
-                                <p>iPad 3: $ <br> iPad 4: $ <br> iPad Air: $ <br> iPad Air 2: <br> iPad 6 (2018): $ <br> iPad Mini: $ <br> iPad Mini 2: $ <br> iPad Mini 3: $ <br> iPad Mini 4: $ <br> iPad Pro 9.7: $ <br> iPad Pro 10.5: $ <br> iPad Pro 12.9: $</p>
-                            </div>
+                        <div class="repairPanel f sonyBtn">
+                            <img src="img/sonyLogo.png" alt="SONY">
                         </div>
                     </div>
-                    <div align="center">
-                    <a href="#apple" class="repairs">Apple</a>
-                    <a href="#samsung" class="repairs">Samsung</a>
-                    <a href="#sony" class="repairs">Sony</a>
-                    <a href="#htc" class="repairs">HTC</a>
-                    <h3 class="header"><br>Other repairs that arent listed are available <a href="#contact" class="smooth-scroll">Contact Us</a> any time for more information</h3>
+                    <div id="repairOptions">
+                        <div id="appleOption" class="option">
+                            <div class="deviceHeader">
+                                <h2 class="header">Select your Device</h2>
+                            </div>
+                            <div id="appleTabs">
+                                <ul class="tabHeader" class="f">
+                                    <li><a href="#appleTab1">iPhone 6 / Plus</a></li>
+                                    <li><a href="#appleTab2">iPhone 6 S / S Plus</a></li>
+                                    <li><a href="#appleTab3">iPhone 7 / Plus</a></li>
+                                    <li><a href="#appleTab4">iPhone 8 / Plus</a></li>
+                                    <li><a href="#appleTab5">iPhone X</a></li>
+                                    <li><a href="#appleTab6">iPad 6 (2018)</a></li>
+                                    <li><a href="#appleTab7">iPad Air / 2</a></li>
+                                    <li style="margin-top: 20px !important"><a href="#appleTab8">iPad Mini / 2 / 3 / 4</a></li>
+                                    <li style="margin-top: 20px !important"><a href="#appleTab9">iPad Pro 9.7 / 10.5 / 12.9</a></li>
+                                </ul>
+                                <!-- IPHONE 6 AND 6 PLUS -->
+                                <div id="appleTab1" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPhone 6 / Plus Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone 6 <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone 6 Plus <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- IPHONE 6S AND S PLUS -->
+                                <div id="appleTab2" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPhone 6S / S Plus Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone 6S <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone 6S Plus <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--- IPHONE 7 AND PLUS ---->
+                                <div id="appleTab3" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPhone 7 / Plus Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone 7 <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone 7 Plus <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--- IPHONE 8 AND PLUS ---->
+                                <div id="appleTab4" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPhone 8 / Plus Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone 8 <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone 8 Plus <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--- IPHONE X --->
+                                <div id="appleTab5" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPhone X Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPhone X <span class="fas fa-mobile"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- IPAD 6 (2018) -->
+                                <div id="appleTab6" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPad 6 (2018) Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad 6 (2018) <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- IPAD AIR / 2 -->
+                                <div id="appleTab7" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPad Air / 2 Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Air <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Air 2 <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- IPAD MINI / 2 / 3 / 4  -->
+                                <div id="appleTab8" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPad Mini / 2 / 3 / 4 Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Mini <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Mini 2 <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Mini 3 <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Mini 4 <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- IPAD PRO 9.7 / 10.5 / 12.9 -->
+                                <div id="appleTab9" class="tableContainer">
+                                    <div id="optionTop">
+                                        <header>
+                                            <h1 class="header">iPad Pro 9.7 / 10.5 / 12.9 Replacement Parts</h1>
+                                        </header>
+                                    </div>
+                                    <div id="optionBottom" class="f">
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Pro 9.7 <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Pro 10.5 <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tableWrapper">
+                                            <div class="tableTitle">
+                                                <h2>iPad Pro 12.9 <span class="fas fa-tablet"></span></h2>
+                                            </div>
+                                            <div id="table">
+                                                <div class="tableHead">
+                                                    <div class="tableLeft">
+                                                        <h3>Part</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>Price</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Screen</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$100</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Battery</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Power Button</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Volume Buttons</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Rear Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$45</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Front Camera</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$40</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Loud Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Ear Speaker</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Charge Port & Headphone Jack</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$35</p>
+                                                    </div>
+                                                </div>
+                                                <div class="tableRow">
+                                                    <div class="tableLeft">
+                                                        <h3>Sim Card Tray</h3>
+                                                    </div>
+                                                    <div class="tableRight">
+                                                        <p>$10</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="samsungOption" class="option">
+                            <div class="deviceHeader">
+                                <h2 class="header">Select your Device</h2>
+                            </div>
+                            <div id="samsungTabs">
+                                <ul class="tabHeader">
+                                    <li><a href="#samsungTab1">Samsung Device 1</a></li>
+                                    <li><a href="#samsungTab2">Samsung Device 2</a></li>
+                                    <li><a href="#samsungTab3">Samsung Device 3</a></li>
+                                    <li><a href="#samsungTab4">Samsung Device 4</a></li>
+                                </ul>
+                                <div id="samsungTab1">Samsung Device 1</div>
+                                <div id="samsungTab2">Samsung Device 2</div>
+                                <div id="samsungTab3">Samsung Device 3</div>
+                                <div id="samsungTab4">Samsung Device 4</div>
+                            </div>
+                        </div>
+                        <div id="sonyOption" class="option">
+                            <div class="deviceHeader">
+                                <h2 class="header">Select your Device</h2>
+                            </div>
+                            <div id="sonyTabs">
+                                <ul class="tabHeader">
+                                    <li><a href="#sonyTab1">Sony Device 1</a></li>
+                                    <li><a href="#sonyTab2">Sony Device 2</a></li>
+                                    <li><a href="#sonyTab3">Sony Device 3</a></li>
+                                    <li><a href="#sonyTab4">Sony Device 4</a></li>
+                                </ul>
+                                <div id="sonyTab1">Sony Device 1</div>
+                                <div id="sonyTab2">Sony Device 2</div>
+                                <div id="sonyTab3">Sony Device 3</div>
+                                <div id="sonyTab4">Sony Device 4</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <section id="contact">
             <div id="wrapper">

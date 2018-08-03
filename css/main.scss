@@ -166,6 +166,118 @@ nav {
         }
     }
 }
+.tableContainer {
+    overflow: hidden;
+    header {
+        border-top: 1px solid #eee;
+        margin-top: 20px;
+        padding-top: 20px;
+        h1 {
+            font-weight: 400;
+        }
+    }
+}
+.tableTitle {
+    padding-bottom: 10px;
+    h2 {
+        font-weight: 400;
+        margin: 0;
+        svg {
+            padding-left: 10px;
+        }
+    }
+}
+#optionBottom {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#tableWrapper {
+    margin: 0 25px;
+    &:nth-child(n+4) {
+        margin-top: 35px;
+    }
+}
+#table {
+    width: 350px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    align-items: flex-start;
+}
+.tableHead {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+}
+.tableRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:nth-child(even) {
+        background: darken(#f8f8f8, 5%);
+    }
+}
+.tableLeft {
+    width: 65%;
+    padding: 15px;
+    box-sizing: border-box;
+    h3 {
+        margin: 0;
+    }
+}
+.tableRight {
+    width: 35%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+// OVERWRITE JQUERY UI
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li, .ui-tabs .ui-tabs-nav {
+    float: initial !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.ui-tabs .ui-tabs-nav {
+    display: flex;
+    cursor: default;
+    flex-wrap: wrap;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    display: block !important;
+    padding: 10px 20px !important;
+    background: #eee !important;
+    color: #444 !important;
+    margin-right: 15px !important;
+    border-radius: 3px;
+    cursor: pointer !important;
+    transition: 0.1s ease;
+    &:hover {
+        background: darken(#eee, 5%) !important;
+    }
+}
+.ui-tabs {
+    padding: 0;
+    margin-top: 35px;
+}
+.tabHeader {
+    justify-content: center;
+    li:last-child .ui-tabs-anchor {
+        margin-right: 0 !important;
+    }
+}
+
+
+
 
 
 
@@ -342,6 +454,58 @@ section {
         color: #fff;
     }
 }
+
+
+
+#repairsBody {
+    padding-top: 25px;
+}
+#repairPanels {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.repairPanel {
+    width: 300px;
+    height: 300px;
+    background: #eee;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    svg {
+        font-size: 72px;
+        color: #434343;
+    }
+    img {
+        width: 80%;
+        filter: invert(70%)
+    }
+    * {
+        user-select: none !important;
+    }
+}
+.option {
+    border-top: 1px solid #eee;
+    margin-top: 35px;
+    display: none;
+}
+.deviceHeader {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

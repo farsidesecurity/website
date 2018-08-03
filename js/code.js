@@ -22,4 +22,24 @@ $(function() {
         $('.navRight').slideToggle(200);
     })
 
+    $('.appleBtn').click(function() {
+        $('#appleOption').slideToggle(300);
+        $('#samsungOption').slideUp(300);
+        $('#sonyOption').slideUp(300);
+    });
+    $('.samsungBtn').click(function() {
+        $('#samsungOption').slideToggle(300);
+        $('#appleOption').slideUp(300);
+        $('#sonyOption').slideUp(300);
+    });
+    $('.sonyBtn').click(function() {
+        $('#sonyOption').slideToggle(300);
+        $('#samsungOption').slideUp(300);
+        $('#appleOption').slideUp(300);
+    });
+
+
+    $('#appleTabs, #samsungTabs, #sonyTabs').tabs();
+
+
 })
