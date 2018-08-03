@@ -251,13 +251,14 @@ nav {
     display: flex;
     cursor: default;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
     display: block !important;
     padding: 10px 20px !important;
     background: #eee !important;
     color: #444 !important;
-    margin-right: 15px !important;
+    margin: 10px !important;
     border-radius: 3px;
     cursor: pointer !important;
     transition: 0.1s ease;
@@ -268,12 +269,6 @@ nav {
 .ui-tabs {
     padding: 0;
     margin-top: 35px;
-}
-.tabHeader {
-    justify-content: center;
-    li:last-child .ui-tabs-anchor {
-        margin-right: 0 !important;
-    }
 }
 
 
@@ -746,6 +741,18 @@ footer {
     }
     #galleryBody .gal {
         width: 33.33%;
+    }
+    .repairPanel {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    #tableWrapper {
+        margin: 0 !important;
+    }
+    #table {
+        width: 100%;
+        margin-bottom: 35px;
     }
 }
 @media only screen and (max-width: 720px) {
