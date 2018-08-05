@@ -553,6 +553,7 @@ section {
     color: #fff;
     padding: 10px 20px;
     border-radius: 3px;
+    text-align: center;
     -webkit-transition: 0.2s ease;
     -o-transition: 0.2s ease;
     transition: 0.2s ease; }
