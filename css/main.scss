@@ -95,7 +95,7 @@ nav {
         .navRight a {
             text-shadow: none;
             color: #444;
-            border-color: #444 !important;
+            border-color: #444;
             &:last-child:hover {
                 color: #fff;
                 background: #444;
@@ -717,6 +717,9 @@ footer {
     .navLeft {
         padding: 15px !important;
         box-sizing: border-box !important;
+        a {
+            width: 160px !important;
+        }
     }
     .navRight {
         display: none;

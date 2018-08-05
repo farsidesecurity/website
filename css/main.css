@@ -105,7 +105,7 @@ nav {
     nav.change .navRight a {
       text-shadow: none;
       color: #444;
-      border-color: #444 !important; }
+      border-color: #444; }
       nav.change .navRight a:last-child:hover {
         color: #fff;
         background: #444; }
@@ -729,6 +729,8 @@ footer {
     padding: 15px !important;
     -webkit-box-sizing: border-box !important;
     box-sizing: border-box !important; }
+    .navLeft a {
+      width: 160px !important; }
   .navRight {
     display: none; }
     .navRight a {
