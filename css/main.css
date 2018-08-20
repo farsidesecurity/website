@@ -71,6 +71,9 @@
 .galBanner {
   height: 200px; }
 
+  .subBanner {
+    height: 85px; }
+
 .repairBanner {
   height: 300px; }
   .repairBanner h1 {
