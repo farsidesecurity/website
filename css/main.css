@@ -650,8 +650,10 @@ section {
         color: #fff; }
   .featuredContainer .facebook {
     display: none;
-    padding-top: 10px;
-    border-top: 1px solid #eee; }
+    border-top: 1px solid #eee;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
 
 .facebookBtn {
   position: absolute;

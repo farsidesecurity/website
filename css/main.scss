@@ -620,8 +620,9 @@ section {
     }
     .facebook {
         display: none;
-        padding-top: 10px;
         border-top: 1px solid #eee;
+        padding: 20px;
+        box-sizing: border-box;
     }
 }
 .facebookBtn {
