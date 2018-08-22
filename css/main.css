@@ -685,6 +685,11 @@ section {
   .facebookBtn:hover {
     background: #0082d5; }
 
+.fb-share-button {
+  position: absolute;
+  top: 20px;
+  right: 20px; }
+
 .fb-comments {
   width: 100% !important; }
   .fb-comments span {

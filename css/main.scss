@@ -650,7 +650,11 @@ section {
 
 
 
-
+.fb-share-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
 .fb-comments {
     width: 100% !important;
     span {
