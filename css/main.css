@@ -510,6 +510,7 @@ section {
     padding: 10px 100px;
     border-radius: 2px;
     font-weight: 500;
+    scroll-behavior: smooth;
     -webkit-transition: 0.2s ease;
     -o-transition: 0.2s ease;
     transition: 0.2s ease; }
