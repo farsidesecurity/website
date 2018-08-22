@@ -925,6 +925,21 @@ footer {
         width: 100%;
         margin-bottom: 35px;
     }
+    .mainContainer {
+        display: block;
+    }
+    .featuredContainer {
+        .head {
+            width: 100%;
+        }
+        .body {
+            padding-bottom: 65px;
+            .facebookBtn {
+                left: 0;
+                width: 100%;
+            }
+        }
+    }
 }
 @media only screen and (max-width: 720px) {
     #galleryBody .gal {

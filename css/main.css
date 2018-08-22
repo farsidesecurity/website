@@ -906,7 +906,16 @@ footer {
     width: 100% !important; }
   #table {
     width: 100%;
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+  .mainContainer {
+    display: block; }
+  .featuredContainer .head {
+    width: 100%; }
+  .featuredContainer .body {
+    padding-bottom: 65px; }
+    .featuredContainer .body .facebookBtn {
+      left: 0;
+      width: 100%; } }
 
 @media only screen and (max-width: 720px) {
   #galleryBody .gal {
