@@ -501,16 +501,15 @@ section {
   .blogmenu {
     width: 250px;
     display: inline-block;
-    margin: 50px auto 0;
+    margin: 5px auto 0;
     text-align: center;
     border: 1px solid #fff;
     background: #444;
     color: #fff;
     text-decoration: none;
-    padding: 10px 100px;
+    padding: 10px 10px;
     border-radius: 2px;
     font-weight: 500;
-    scroll-behavior: smooth;
     -webkit-transition: 0.2s ease;
     -o-transition: 0.2s ease;
     transition: 0.2s ease; }
