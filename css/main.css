@@ -681,9 +681,16 @@ section {
   -webkit-transition: 0.1s ease;
   -o-transition: 0.1s ease;
   transition: 0.1s ease;
-  border-top-left-radius: 3px; }
+  border-radius: 0; }
   .facebookBtn:hover {
     background: #0082d5; }
+
+.fb-comments {
+  width: 100% !important; }
+  .fb-comments span {
+    width: 100% !important; }
+    .fb-comments span iframe {
+      width: 100% !important; }
 
 #contact {
   background: url("../img/bannerLarge.jpeg") center fixed;
