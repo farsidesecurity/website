@@ -640,7 +640,8 @@ section {
     font-weight: 500;
     color: #fff;
     transition: 0.1s ease;
-    border-radius: 0;
+    border-top-left-radius: 3px;
+    z-index: 1;
     &:hover {
         background: lighten($main, 5%);
     }
@@ -651,7 +652,7 @@ section {
 
 
 .fb-share-button {
-    position: absolute;
+    position: absolute !important;
     top: 20px;
     right: 20px;
 }
@@ -951,7 +952,11 @@ footer {
             .facebookBtn {
                 left: 0;
                 width: 100%;
+                border-radius: 0;
             }
+        }
+        .facebook {
+            padding-bottom: 50px;
         }
     }
 }

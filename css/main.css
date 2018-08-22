@@ -681,12 +681,13 @@ section {
   -webkit-transition: 0.1s ease;
   -o-transition: 0.1s ease;
   transition: 0.1s ease;
-  border-radius: 0; }
+  border-top-left-radius: 3px;
+  z-index: 1; }
   .facebookBtn:hover {
     background: #0082d5; }
 
 .fb-share-button {
-  position: absolute;
+  position: absolute !important;
   top: 20px;
   right: 20px; }
 
@@ -937,7 +938,10 @@ footer {
     padding-bottom: 65px; }
     .featuredContainer .body .facebookBtn {
       left: 0;
-      width: 100%; } }
+      width: 100%;
+      border-radius: 0; }
+  .featuredContainer .facebook {
+    padding-bottom: 50px; } }
 
 @media only screen and (max-width: 720px) {
   #galleryBody .gal {
