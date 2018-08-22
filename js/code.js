@@ -29,6 +29,12 @@ $(function() {
         e.preventDefault();
 	})
 
+    $(".facebookBtn").click(function(){
+      $(this).text($(this).text() == 'Open Comments' ? 'Close Comments' : 'Open Comments');
+      $(this).closest('.featuredContainer').find('.facebook').slideToggle(300);
+
+   });
+
     $('.hamburger').click(function() {
         $('.navRight').slideToggle(200);
     })

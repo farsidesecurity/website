@@ -606,8 +606,7 @@ section {
     position: relative; }
     .featuredContainer .head img {
       width: 100%;
-      margin-bottom: -5px;
-      height: 100%; }
+      margin-bottom: -5px; }
     .featuredContainer .head p {
       position: absolute;
       bottom: 0;
@@ -635,7 +634,7 @@ section {
       text-decoration: none;
       color: #444;
       font-weight: 500;
-      margin-top: 30px;
+      margin-top: 40px;
       display: block;
       border: 2px solid #444;
       width: 250px;
@@ -649,8 +648,30 @@ section {
       .featuredContainer .body .blogBtn:hover {
         background: #444;
         color: #fff; }
-    .featuredContainer .body .facebook {
-      margin-top: 20px; }
+  .featuredContainer .facebook {
+    display: none;
+    padding-top: 10px;
+    border-top: 1px solid #eee; }
+
+.facebookBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  border: none;
+  padding: 10px 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #0072bb;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+  -webkit-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  transition: 0.1s ease;
+  border-top-left-radius: 3px; }
+  .facebookBtn:hover {
+    background: #0082d5; }
 
 #contact {
   background: url("../img/bannerLarge.jpeg") center fixed;

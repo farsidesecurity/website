@@ -575,7 +575,6 @@ section {
         img {
             width: 100%;
             margin-bottom: -5px;
-            height: 100%;
         }
         p {
             position: absolute;
@@ -604,7 +603,7 @@ section {
             text-decoration: none;
             color: #444;
             font-weight: 500;
-            margin-top: 30px;
+            margin-top: 40px;
             display: block;
             border: 2px solid #444;
             width: 250px;
@@ -618,12 +617,31 @@ section {
                 color: #fff;
             }
         }
-        .facebook {
-            margin-top: 20px;
-        }
+    }
+    .facebook {
+        display: none;
+        padding-top: 10px;
+        border-top: 1px solid #eee;
     }
 }
-
+.facebookBtn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background: $main;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.1s ease;
+    border-top-left-radius: 3px;
+    &:hover {
+        background: lighten($main, 5%);
+    }
+}
 
 
 
