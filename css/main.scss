@@ -654,8 +654,14 @@ section {
         background: lighten($main, 5%);
     }
 }
-
-
+.latestContainer {
+    flex-wrap: wrap;
+}
+.latestPost {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.1);
+    margin: 0 10px 20px 10px;
+}
 
 
 
@@ -673,10 +679,6 @@ section {
         }
     }
 }
-._4-u2 {
-    border: none !important;
-}
-
 
 
 
