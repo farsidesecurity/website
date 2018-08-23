@@ -558,7 +558,15 @@ section {
         }
     }
 }
-
+.blogContainer {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ddd;
+    &:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
 .featuredContainer {
     background: #fff;
     border-radius: 3px;
@@ -792,25 +800,6 @@ section {
 }
 
 
-footer {
-    position: absolute;
-    width: 100%;
-    p {
-        position: absolute;
-        right: 15px;
-        bottom: 15px;
-        margin: 0;
-        color: rgba(255,255,255,0.15);
-        a {
-            color: rgba(255,255,255,0.15);
-            font-weight: bold;
-            text-decoration: none;
-            &:hover {
-                color: rgba(255,255,255,0.5);
-            }
-        }
-    }
-}
 
 
 
