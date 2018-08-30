@@ -131,24 +131,68 @@ nav {
 .navRight {
     justify-content: flex-end;
     align-items: center;
-    a {
-        color: #fff;
-        text-decoration: none;
-        font-family: 'Montserrat';
-        font-weight: 500;
-        margin-left: 15px;
-        padding: 10px 25px;
-        text-shadow: 0 2px 5px #000;
-        transition: 0.2s ease;
-        &:last-child {
-            border-radius: 50px;
-            border: 2px solid #fff;
-            &:hover {
-                background: #fff;
-                color: #444;
-                text-shadow: none;
+    ul {
+        padding: 0;
+        margin: 0;
+        cursor: default;
+        li {
+            display: inline-flex;
+            &:last-child a {
+                border-radius: 50px;
+                border: 2px solid #fff;
+                &:hover {
+                    background: #fff;
+                    color: #444;
+                    text-shadow: none;
+                }
+            }
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-family: 'Montserrat';
+                font-weight: 500;
+                padding: 10px 25px;
+                text-shadow: 0 2px 5px #000;
+                transition: 0.2s ease;
+
             }
         }
+    }
+}
+.dropDownAnchor {
+    position: relative;
+    a:hover ~ .dropDown {
+        opacity: 1;
+        visibility: visible;
+        top: 38px;
+    }
+}
+.dropDown {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: #fff;
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 2px 3px rgba(0,0,0,0.1);
+    opacity: 0;
+    visibility: 0;
+    transition: 0.2s ease;
+    a {
+        display: block;
+        text-shadow: none !important;
+        color: #444 !important;
+        padding: 15px !important;
+        &:hover {
+            background: #f8f8f8;
+        }
+    }
+    &:hover {
+        opacity: 1;
+        visibility: visible;
+        top: 38px;
     }
 }
 .hamburger {
