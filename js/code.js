@@ -1,5 +1,6 @@
 $(function() {
 
+    // Change navigation colours
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 200) {
             $('nav').addClass('change');
@@ -9,6 +10,7 @@ $(function() {
         }
     });
 
+    // Smooth Scroll
     var headerHeight = $('nav').outerHeight();
 	$('.smooth-scroll').click(function(e) {
 		var linkHref = $(this).attr('href');
@@ -18,6 +20,7 @@ $(function() {
 		e.preventDefault();
 	})
 
+    // Smooth Scroll with Delay
     var headerHeight = $('nav').outerHeight();
 	$('.smooth-scroll-Delay').click(function(e) {
 		var linkHref = $(this).attr('href');
@@ -29,23 +32,25 @@ $(function() {
         e.preventDefault();
 	})
 
+    // Open and Close Facebook btns
     $(".facebookBtn").click(function(){
         $(this).text($(this).text() == 'Open Comments' ? 'Close Comments' : 'Open Comments');
         $(this).closest('.featuredContainer').find('.facebook').slideToggle(300);
     });
 
+    // Toggle mobile naviation
     $('.hamburger').click(function() {
         $('.navRight').slideToggle(200);
     })
 
+    // Toggle dropdown on mobile
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         $('.dropDownAnchor').click(function() {
             $('.dropDown').slideToggle(200);
         })
     }
 
-
-
+    // Repair Buttons
     $('.appleBtn').click(function() {
         $('#appleOption').slideToggle(300);
         $('#samsungOption').slideUp(300);
@@ -71,7 +76,7 @@ $(function() {
         $('#appleOption').slideUp(300);
     });
 
-
+    // Repair Tabs
     $('#appleTabs, #samsungTabs, #sonyTabs').tabs();
 
 

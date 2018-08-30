@@ -893,6 +893,7 @@ section {
         display: block !important;
         padding: 0 !important;
         box-shadow: 0 5px 10px rgba(0,0,0,0.5) !important;
+        overflow-y: auto;
         img {
             filter: invert(1) hue-rotate(180deg);
         }
