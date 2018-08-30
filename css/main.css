@@ -583,8 +583,9 @@ section {
   align-items: center;
   margin: 0 25px;
   border-radius: 5px;
+  text-decoration: none;
   cursor: pointer; }
-  .repairPanel svg {
+  .repairPanel span {
     font-size: 72px;
     color: #434343; }
   .repairPanel img {
