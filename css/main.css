@@ -205,7 +205,7 @@ nav {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.1);
   opacity: 0;
-  visibility: 0;
+  visibility: hidden;
   -webkit-transition: 0.2s ease;
   -o-transition: 0.2s ease;
   transition: 0.2s ease; }
@@ -923,6 +923,8 @@ section {
       width: 160px !important; }
   .navRight {
     display: none; }
+    .navRight li {
+      display: block !important; }
     .navRight a {
       display: block !important;
       width: 100% !important;
@@ -931,11 +933,37 @@ section {
       text-shadow: none !important;
       border-top: 2px solid #ddd;
       padding-top: 25px !important;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
       padding-bottom: 25px !important; }
       .navRight a:last-child {
         border: none !important;
         border-top: 2px solid #ddd !important;
         border-radius: 0 !important; }
+  .dropDownAnchor a:hover ~ .dropDown {
+    top: 0;
+    opacity: 1;
+    visibility: visible; }
+  .dropDown {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    padding: 0;
+    display: none;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .dropDown:hover {
+      top: 0;
+      visibility: initial;
+      opacity: 1; }
+    .dropDown a {
+      padding: 25px 55px !important;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .dropDown a:hover {
+        background: #fff !important; }
   .aboutContainer {
     display: block; }
     .aboutContainer .me {

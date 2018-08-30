@@ -30,14 +30,21 @@ $(function() {
 	})
 
     $(".facebookBtn").click(function(){
-      $(this).text($(this).text() == 'Open Comments' ? 'Close Comments' : 'Open Comments');
-      $(this).closest('.featuredContainer').find('.facebook').slideToggle(300);
-
-   });
+        $(this).text($(this).text() == 'Open Comments' ? 'Close Comments' : 'Open Comments');
+        $(this).closest('.featuredContainer').find('.facebook').slideToggle(300);
+    });
 
     $('.hamburger').click(function() {
         $('.navRight').slideToggle(200);
     })
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $('.dropDownAnchor').click(function() {
+            $('.dropDown').slideToggle(200);
+        })
+    }
+
+
 
     $('.appleBtn').click(function() {
         $('#appleOption').slideToggle(300);
