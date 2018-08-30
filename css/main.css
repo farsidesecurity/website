@@ -115,13 +115,15 @@ nav {
     background: #fff;
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
-    nav.change .navRight a {
-      text-shadow: none;
-      color: #444;
-      border-color: #444; }
-      nav.change .navRight a:last-child:hover {
+    nav.change .navRight li:last-child a {
+      border: 2px solid #444; }
+      nav.change .navRight li:last-child a:hover {
         color: #fff;
-        background: #444; }
+        background: #444;
+        border: 2px solid #444; }
+    nav.change .navRight li a {
+      text-shadow: none;
+      color: #444; }
     nav.change img {
       -webkit-filter: invert(1) hue-rotate(180deg);
       filter: invert(1) hue-rotate(180deg); }
