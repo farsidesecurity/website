@@ -41,6 +41,7 @@ $(function() {
     // Toggle mobile naviation
     $('.hamburger').click(function() {
         $('.navRight').slideToggle(200);
+        $('nav, body, html').toggleClass('navHeight')
     })
 
     // Toggle dropdown on mobile

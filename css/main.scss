@@ -20,7 +20,11 @@ $main: #0072bb;
 }
 
 // RULES
-
+body, html {
+    &.navHeight {
+        overflow: hidden;
+    }
+}
 
 
 
@@ -114,6 +118,10 @@ nav {
         img {
             filter: invert(1) hue-rotate(180deg);
         }
+    }
+    &.navHeight {
+        height: 100%;
+        transition: 0.2s ease;
     }
 }
 .navLeft {

@@ -32,6 +32,9 @@
   width: 1280px;
   margin: 0 auto; }
 
+body.navHeight, html.navHeight {
+  overflow: hidden; }
+
 .banner {
   height: 650px;
   background: url("../img/Banner 1.jpg") center;
@@ -127,6 +130,11 @@ nav {
     nav.change img {
       -webkit-filter: invert(1) hue-rotate(180deg);
       filter: invert(1) hue-rotate(180deg); }
+  nav.navHeight {
+    height: 100%;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease; }
 
 .navLeft {
   -webkit-box-orient: vertical;
