@@ -444,8 +444,71 @@ section {
         flex-direction: column;
         justify-content: center;
         p {
-            margin: 10px 0 0;
+            margin: 8px 0 0;
             font-family: 'Montserrat';
+        }
+        a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            width: 91px;
+            font-family: 'Montserrat';
+            padding: 2px 0;
+            transition: 0.2s ease;
+            &.serviceBtn1 {
+                $colour: #009688;
+                color: $colour;
+                box-shadow: inset 0 -2px 0 $colour;
+                &:hover {
+                    box-shadow: inset 0 -22px 0 $colour;
+                    color: #fff;
+                }
+            }
+            &.serviceBtn2 {
+                $colour: #f44336;
+                color: $colour;
+                box-shadow: inset 0 -2px 0 $colour;
+                &:hover {
+                    box-shadow: inset 0 -22px 0 $colour;
+                    color: #fff;
+                }
+            }
+            &.serviceBtn3 {
+                $colour: #2196F3;
+                color: $colour;
+                box-shadow: inset 0 -2px 0 $colour;
+                &:hover {
+                    box-shadow: inset 0 -22px 0 $colour;
+                    color: #fff;
+                }
+            }
+            &.serviceBtn4 {
+                $colour: #3F51B5;
+                color: $colour;
+                box-shadow: inset 0 -2px 0 $colour;
+                &:hover {
+                    box-shadow: inset 0 -22px 0 $colour;
+                    color: #fff;
+                }
+            }
+            &.serviceBtn5 {
+                $colour: #4CAF50;
+                color: $colour;
+                box-shadow: inset 0 -2px 0 $colour;
+                &:hover {
+                    box-shadow: inset 0 -22px 0 $colour;
+                    color: #fff;
+                }
+            }
+            &.serviceBtn6 {
+                $colour: #FF5722;
+                color: $colour;
+                box-shadow: inset 0 -2px 0 $colour;
+                &:hover {
+                    box-shadow: inset 0 -22px 0 $colour;
+                    color: #fff;
+                }
+            }
         }
     }
     &:last-child {
