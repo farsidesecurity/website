@@ -442,7 +442,7 @@ section {
     }
     .text {
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         p {
             margin: 8px 0 0;
             font-family: 'Montserrat';
