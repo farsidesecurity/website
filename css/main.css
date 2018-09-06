@@ -32,6 +32,9 @@
   width: 1280px;
   margin: 0 auto; }
 
+.smallWrapper {
+  width: 980px !important; }
+
 body.navHeight, html.navHeight {
   overflow: hidden; }
 
@@ -833,6 +836,34 @@ section {
 .fb-page {
   margin: 0 auto; }
 
+.row {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee; }
+  .row:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none; }
+  .row .head {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px; }
+  .row img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .row p {
+    margin: 5px 0; }
+  .row .left {
+    padding-right: 15px; }
+  .row .right {
+    padding-left: 15px; }
+
 #contact {
   background: url("../img/bannerLarge.jpeg") center fixed;
   background-size: cover; }
@@ -947,7 +978,7 @@ section {
 
 @media only screen and (max-width: 1280px) {
   #wrapper {
-    width: 100%;
+    width: 100% !important;
     padding: 0 25px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; } }
