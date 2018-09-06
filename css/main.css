@@ -856,13 +856,15 @@ section {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    width: 110%;
+    height: 110%; }
   .row p {
     margin: 5px 0; }
   .row .left {
-    padding-right: 15px; }
+    margin-right: 15px; }
   .row .right {
-    padding-left: 15px; }
+    margin-left: 15px; }
   .row a {
     display: block;
     margin-top: 15px;
@@ -1137,7 +1139,29 @@ section {
       width: 100%;
       border-radius: 0; }
   .featuredContainer .facebook {
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; }
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #eee; }
+    .row:nth-child(even) {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse; }
+    .row .left, .row .right {
+      margin: 0; }
+      .row .left:not(.head), .row .right:not(.head) {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+      .row .left.head, .row .right.head {
+        width: 100%;
+        margin-top: 25px; } }
 
 @media only screen and (max-width: 720px) {
   #galleryBody .gal {

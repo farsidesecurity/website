@@ -829,15 +829,17 @@ section {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 110%;
+        height: 110%;
     }
     p {
         margin: 5px 0;
     }
     .left {
-        padding-right: 15px;
+        margin-right: 15px;
     }
     .right {
-        padding-left: 15px;
+        margin-left: 15px;
     }
     a {
         display: block;
@@ -1152,6 +1154,25 @@ section {
         }
         .facebook {
             padding-bottom: 50px;
+        }
+    }
+    .row {
+        flex-direction: column;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        border-bottom: 2px solid #eee;
+        &:nth-child(even) {
+            flex-direction: column-reverse;
+        }
+        .left, .right {
+            margin: 0;
+            &:not(.head) {
+                justify-content: center;
+            }
+            &.head {
+                width: 100%;
+                margin-top: 25px;
+            }
         }
     }
 }
